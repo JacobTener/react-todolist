@@ -4,9 +4,7 @@ import './App.css';
 import Todos from './components/Todos';
 import AddTodo from './components/AddTodo';
 import About from './components/pages/About';
-import { render } from '@testing-library/react';
 import Header from './components/layout/Header';
-import {v4 as uuid} from 'uuid';
 import Axios from 'axios';
 
 
