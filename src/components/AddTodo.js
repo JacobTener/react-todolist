@@ -13,6 +13,7 @@ export class AddTodo extends Component {
         this.props.addTodo(this.state.title);
         this.setState({title: ''});
     }
+    
     render() {
         return (
             <form onSubmit={this.onSubmit} style = {{display: 'flex'}}>
