@@ -1,5 +1,4 @@
 import React from 'react';
-import { render } from '@testing-library/react';
 import TodoItem from './TodoItem';
 import PropTypes from 'prop-types';
 
